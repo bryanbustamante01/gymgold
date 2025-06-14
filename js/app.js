@@ -45,15 +45,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inicializa el primer slide
     showSlide(currentSlide);
 
-    // --- 3. Modal de Imágenes de Proyectos ---
-    const proyectos = document.querySelectorAll('.icono-proyecto');
+    // --- 3. Modal de Imágenes de Categorias ---
+    const Categorias = document.querySelectorAll('.icono-categoria');
     const modalImagen = document.getElementById('modal-imagen');
     const modalContenidoImg = modalImagen.querySelector('.modal-contenido img');
     const cerrarModalBtn = modalImagen.querySelector('.cerrar-modal');
 
-    proyectos.forEach(proyecto => {
-        proyecto.addEventListener('click', () => {
-            const imgSrc = proyecto.getAttribute('src');
+    Categorias.forEach(categoria => {
+        categoria.addEventListener('click', () => {
+            const imgSrc = categoria.getAttribute('src');
             modalContenidoImg.setAttribute('src', imgSrc);
             modalImagen.classList.add('visible'); // Usa 'visible'
             body.classList.add('no-scroll'); // Evita el scroll del body
