@@ -251,24 +251,6 @@ body.no-scroll {
     }
 }
 
-.texto-encabezado p {
-    font-size: 2rem;
-    color: var(--blanco);
-    max-width: 80%;
-    /* Ajuste para que no quede tan estrecho */
-    margin-left: auto;
-    margin-right: auto;
-    /* Centra el bloque de texto */
-}
-
-@media(min-width: 768px) {
-    .texto-encabezado p {
-        font-size: 2.2rem;
-        max-width: 60%;
-        /* Mayor ancho para desktop */
-    }
-}
-
 .boton-encabezado {
     text-align: center;
     /* Asegura el centrado del botón */
