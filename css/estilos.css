@@ -314,7 +314,7 @@ body.no-scroll {
 }
 
 .logo h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
     color: var(--oscuro);
 }
@@ -461,7 +461,7 @@ body.no-scroll {
 }
 
 .hamburguesa span {
-    width: 5rem;
+    width: 3rem;
     height: 0.4rem;
     background-color: var(--oscuro);
     display: block;
@@ -546,14 +546,14 @@ body.no-scroll {
 /* --- SECCIÓN NOSOTROS --- */
 /* --- Estilos para la sección completa de Nuestra Historia --- */
 .nosotros {
-    padding: 5rem 0;
+    padding: 6rem 0;
     text-align: center;
     background-color: var(--blanco);
     /* Asegura que esta sección tenga fondo blanco */
 }
 
 .titulo-nosotros {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--rosa);
     margin-bottom: 4rem;
     text-align: center;
@@ -591,7 +591,7 @@ body.no-scroll {
     /* Ancho máximo para el embed de Instagram en desktop */
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%;
+    padding-top: 95%;
     /* Proporción de aspecto 16:9 (altura / ancho * 100) */
     border-radius: 0.8rem;
     /* Hereda de .imagen-nosotros para consistencia */
@@ -668,7 +668,7 @@ body.no-scroll {
 }
 
 .texto-nosotros h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--rosa);
     margin-bottom: 1.5rem;
     line-height: 1.2;
@@ -685,7 +685,7 @@ body.no-scroll {
 }
 
 .texto-nosotros p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-bottom: 1.5rem;
     /* Agregué un pequeño margen inferior para separar párrafos */
     text-align: center;
@@ -701,43 +701,18 @@ body.no-scroll {
     }
 }
 
-/* --- Estilos para la imagen dentro del contenedor de texto --- */
-.imagen-nosotros-texto {
-    width: 100%;
-    /* Ocupa todo el ancho del contenedor padre .texto-nosotros */
-    max-width: 50rem;
-    /* Mantiene el max-width original de la imagen */
-    height: 50vh;
-    /* Mantiene la altura original de la imagen */
-    object-fit: cover;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    display: block;
-    border-radius: 0.8rem;
-    margin-top: 3rem;
-    /* Espacio entre el texto y la imagen */
-}
-
-@media(min-width: 768px) {
-    .imagen-nosotros-texto {
-        width: 100%;
-        /* Sigue ocupando el 100% del .texto-nosotros, que ya tiene un ancho */
-        height: 34rem;
-        /* Mantiene la altura original */
-        min-width: unset;
-        /* Ya no es necesario un min-width aquí */
-    }
-}
 
 /* --- SECCIÓN CATEGORIAS--- */
 .categorias {
-    padding-top: 7rem;
+    padding-top: 6rem;
     background-color: var(--blanco);
     /* Asegura que esta sección tenga fondo blanco */
     text-align: center;
+    border-top: 1px solid #ddd;
 }
 
 .categorias h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     color: var(--rosa);
     margin-bottom: 4rem;
@@ -798,7 +773,7 @@ body.no-scroll {
 }
 
 .categoria p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
     line-height: 1.6;
     color: var(--oscuro);
@@ -884,7 +859,7 @@ body.no-scroll {
 
 @media(min-width: 768px) {
     .titulo-seccion-contacto {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -1002,7 +977,7 @@ body.no-scroll {
 }
 
 .logo-img {
-    height: 4rem;
+    height: 3.1rem;
     /* Ajusta la altura de tu logo. Puedes usar 'width' también. */
     /* max-width: 100%; para que no se desborde en pantallas pequeñas si es muy grande */
     object-fit: contain;
@@ -1012,7 +987,7 @@ body.no-scroll {
 /* Puedes ajustar el tamaño del logo para pantallas más pequeñas si es necesario */
 @media (max-width: 768px) {
     .logo-img {
-        height: 3.5rem;
+        height: 3rem;
         /* Un poco más pequeño en móvil */
     }
 }
