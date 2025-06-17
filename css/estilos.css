@@ -951,11 +951,9 @@ body.no-scroll {
 
 .logo {
     display: flex;
-    /* Para alinear la imagen y el texto en la misma línea */
+    justify-content: center;
     align-items: center;
-    /* Centra verticalmente la imagen y el texto */
     gap: 1rem;
-    /* Espacio entre el logo y el texto */
 }
 
 .logo-img {
